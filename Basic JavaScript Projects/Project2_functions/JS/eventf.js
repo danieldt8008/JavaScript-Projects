@@ -4,7 +4,7 @@ function mouseOver() {
 }
 
 function mouseOut() {
-  document.getElementById("ctext").style.color = "green"; // set text color green when no hover
+  document.getElementById("ctext").style.color = "orange"; // set text color green when no hover
 }
 
   
