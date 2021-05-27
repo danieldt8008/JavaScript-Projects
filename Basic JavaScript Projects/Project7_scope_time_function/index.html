@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scope</title>
+    <script src="JS/main.js"></script>
+</head>
+
+<body>
+    <!-- //test scope of variables -->
+    <p>Testing variable scope. (note: this will cause an error and crash this Pgm)</p>
+    <button onclick="Scope_Test1(), Scope_Test2()">Punch Here</button>
+    <p><br></p>
+    <p id="If_Test" onclick="test_if()">Tap This</p>
+    <p><br></p>
+    <p id="Rand_Num" onclick="test_rand()">Click Random</p>
+    <p><br></p>
+
+    <p>Guess a number from 1 to 10, then click below.</p>
+    Your Guess:<input id="Numb" value="5" />
+    <button onclick="Num_Function()">Click This</button>
+    <p id="Num_Guess"></p>
+    <p><br></p>
+    <p id="Time_of_day"></p>
+    <button onclick="Time_function()">Click Here for the time.</button>
+</body>
+
+</html>
