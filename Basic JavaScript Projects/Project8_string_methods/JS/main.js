@@ -1,4 +1,4 @@
-function Concat_function() {  // string function
+function Concat_function() {  // string functions
 
     var Reply;
     var d = new Date();  // get the date/time using the Date method
@@ -12,10 +12,10 @@ function Concat_function() {  // string function
     var text2 = "."
     var date_string = text1.concat(month, text2);  //put together a string using the concatination method that contains the current month
     document.getElementById("String_one").innerHTML = date_string; // display the string
-    var date_line = d.toDateString().slice(0, 4);  //pull the date out of the Date method as a string then slice out the day as text
+    var date_line = d.toDateString().slice(0, 4);  //pull the date out d object as a string then slice out the day as text
     document.getElementById("Slice_one").innerHTML = "Today is: " + date_line;
     var upper_Date = date_line.toUpperCase();  //convert day name string to uppercase
-    document.getElementById("Upper_one").innerHTML = "In caps TODAY IS: " + upper_Date;
+    document.getElementById("Upper_one").innerHTML = "In caps TODAY IS: " + upper_Date;  //display
     var alphabet = "abcdefghijklmnopqrstubwxyz"  //le alphabet
     var loc = alphabet.search("t");  //find the locaton of the letter "t"
     document.getElementById("Srch_loc").innerHTML = "t is the " + (loc + 1) + "th letter in the alphabet"; //display the locatoin of the letter t (add one as we start at 0)
@@ -27,6 +27,6 @@ function Concat_function() {  // string function
     const stringObj = new String("stringer");  //create an object
     console.log(stringObj);  //display it in on the colsole
     console.log(typeof stringObj);  //display the type on the console
-    console.log(stringObj.valueOf());  // ger primitive value of object
+    console.log(stringObj.valueOf());  // make primitive value of object
     console.log(typeof stringObj.valueOf());  //display type of primitive mmmmmmmmmmm very intersting!! 
 }
